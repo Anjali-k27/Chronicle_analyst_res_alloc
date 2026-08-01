@@ -1,0 +1,13 @@
+# Chronicle — Session 11.3 Requirements
+# Install: pip install -r requirements.txt
+#
+# Inference calls the Gemini REST API directly via aiohttp — no Google SDK
+# needed. (google-generativeai and langchain-google-genai were removed:
+# both were unused, and google-generativeai is EOL/deprecated upstream.)
+
+aiohttp>=3.9.0
+pydantic>=2.0.0
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-dotenv>=1.0.0
+certifi>=2024.0.0
